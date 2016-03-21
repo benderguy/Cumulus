@@ -647,10 +647,10 @@
         <members>Trigger_Handler__c.Object__c</members>
         <members>Trigger_Handler__c.Trigger_Action__c</members>
         <members>Trigger_Handler__c.User_Managed__c</members>
-        <members>npe01__Contacts_And_Orgs_Settings__c.Honoree_Opportunity_Contact_Role__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Automatic_Campaign_Member_Management__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Campaign_Member_Non_Responded_Status__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Campaign_Member_Responded_Status__c</members>
+        <members>npe01__Contacts_And_Orgs_Settings__c.Honoree_Opportunity_Contact_Role__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Household_Account_Addresses_Disabled__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Max_Payments__c</members>
         <members>npe01__Contacts_And_Orgs_Settings__c.Notification_Recipient_Opp_Contact_Role__c</members>
@@ -666,9 +666,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Addr_Id_Error</members>
-        <members>Addr_No_Batch</members>
-        <members>Addr_Pending_Verification</members>
         <members>Addr_Settings_API_Body</members>
         <members>Addr_Settings_API_Title</members>
         <members>Addr_Settings_Intro_Body</members>
@@ -680,68 +677,16 @@
         <members>Addr_Settings_Test_Response_Title</members>
         <members>Addr_Settings_Test_Title</members>
         <members>Addr_Skip_Verified</members>
-        <members>Addr_Token_Error</members>
-        <members>Addr_Unauthorized_Endpoint</members>
-        <members>Addr_Valid_Key_Pair</members>
         <members>Addr_Verification_Batch_Body</members>
         <members>Addr_Verification_Batch_Not_Supported</members>
-        <members>Addr_Verification_Batch_SmartyStreets_Message</members>
         <members>Addr_Verification_Batch_Status</members>
         <members>Addr_Verification_Batch_Title</members>
-        <members>Addr_Verification_Required</members>
-        <members>Addr_Verification_Undefined_Class</members>
-        <members>Addr_Verification_Wrong_Class</members>
-        <members>Addr_Verification_Wrong_Interface</members>
         <members>Addr_Verified</members>
-        <members>Addr_Verify_Endpoint</members>
         <members>Addr_Verify_Google_Help</members>
-        <members>Addr_Verify_Settings</members>
-        <members>Addr_Verifying</members>
         <members>Address_Not_Found</members>
         <members>Address_StateCountry_Invalid_Error</members>
-        <members>Address_Verification_Limit</members>
-        <members>CONV_Accept_Risk</members>
-        <members>CONV_Account_Field</members>
-        <members>CONV_Account_Field_For_Old_HH_ID</members>
-        <members>CONV_Activities_Reparented</members>
-        <members>CONV_Address_Overrides_Set</members>
-        <members>CONV_Addresses_Mapped</members>
-        <members>CONV_All_Backed_Up</members>
-        <members>CONV_All_Households_Selected</members>
-        <members>CONV_All_Required_Removed</members>
-        <members>CONV_All_Triggers_Disabled</members>
-        <members>CONV_All_Users_Logged_Out</members>
-        <members>CONV_All_WFR_Disabled</members>
-        <members>CONV_Batching_Explanation</members>
-        <members>CONV_Begin</members>
-        <members>CONV_Cancel</members>
         <members>CONV_Configuration_Options</members>
-        <members>CONV_Contacts_Attached</members>
-        <members>CONV_Conversion_Process</members>
-        <members>CONV_Fundamental_Changes</members>
-        <members>CONV_Important_Info_Header</members>
-        <members>CONV_Local_Expert</members>
-        <members>CONV_Master_Address_Set</members>
-        <members>CONV_New_Affiliations</members>
-        <members>CONV_New_Households_Created</members>
-        <members>CONV_Non_NPSP_Apps</members>
-        <members>CONV_Old_Household_Objects</members>
-        <members>CONV_Only_Household_Contacts</members>
-        <members>CONV_Opportunities_Reparented</members>
-        <members>CONV_Original_HH_Id</members>
-        <members>CONV_Page_Description</members>
-        <members>CONV_Page_Title</members>
-        <members>CONV_Permanent_Change</members>
-        <members>CONV_Primary_Contacts_Set</members>
-        <members>CONV_Proceed</members>
-        <members>CONV_Record_Ownership_Transferred</members>
         <members>CONV_Reload</members>
-        <members>CONV_Selected_Field_Bad</members>
-        <members>CONV_Selected_Field_Verification_Failure</members>
-        <members>CONV_Tested_in_Sandbox</members>
-        <members>CONV_Triggers_Reenabled</members>
-        <members>CONV_Warning</members>
-        <members>CONV_What_This_Tool_Does</members>
         <members>CampaignMemberStatusOmit</members>
         <members>HiddenForSecurity</members>
         <members>PageMessagesConfirm</members>
@@ -755,11 +700,7 @@
         <members>REL_Return_to_Contact</members>
         <members>REL_View_Contact_Record</members>
         <members>RecurringDonationAccountAndContactError</members>
-        <members>Saved</members>
-        <members>Settings_not_Saved</members>
         <members>SmartyStreets_Help_Text</members>
-        <members>Zip_Not_Found</members>
-        <members>Zipcode_Verification_Limit</members>
         <members>addrCiceroMissingAPIKey</members>
         <members>addrCopyConAddBtnHHObjOnly</members>
         <members>addrGeneralSettings</members>
@@ -769,188 +710,34 @@
         <members>addrSeasonalPartial</members>
         <members>alloAddRow</members>
         <members>alloAddRowAtPosition</members>
-        <members>alloAmountOrPercent</members>
         <members>alloBatchCreateDefault</members>
         <members>alloBatchDefaultInfo</members>
         <members>alloBtnCancel</members>
         <members>alloBtnSaveAndClose</members>
         <members>alloCantAllocateNothing</members>
-        <members>alloDefaultGAUMissing</members>
-        <members>alloDefaultNotPercent</members>
         <members>alloDeleteRow</members>
-        <members>alloExceedsOppAmount</members>
         <members>alloManageCampaignAllocations</members>
         <members>alloManageOppAllocations</members>
         <members>alloManageRecurringDonationAllocations</members>
-        <members>alloModifyCurrency</members>
-        <members>alloNegativeAmount</members>
-        <members>alloNegativePercent</members>
-        <members>alloPercentExceed100</members>
-        <members>alloRemainder</members>
-        <members>alloSingleParent</members>
-        <members>alloTotalExceedsOppAmt</members>
-        <members>alloTotals</members>
-        <members>bdiAccountCustomIdError</members>
-        <members>bdiBatchException</members>
-        <members>bdiBtnClose</members>
-        <members>bdiComplete</members>
-        <members>bdiCompleteWithErrors</members>
-        <members>bdiContactCustomIdError</members>
-        <members>bdiContactMatchEmail</members>
-        <members>bdiContactMatchFnameEmail</members>
-        <members>bdiContactMatchFnameLname</members>
-        <members>bdiContactMatchFnameLnameEmail</members>
-        <members>bdiContactMatchLnameEmail</members>
         <members>bdiCreated</members>
-        <members>bdiDataImporterConfigTitle</members>
-        <members>bdiDataImporterDescription</members>
-        <members>bdiDataImporterInfoLine1</members>
-        <members>bdiDataImporterInfoLine2</members>
-        <members>bdiDataImporterInfoLine2b</members>
-        <members>bdiDataImporterInfoLine3</members>
-        <members>bdiDataImporterInfoLine4</members>
-        <members>bdiDataImporterInfoTitle</members>
-        <members>bdiDataImporterNumToProcess</members>
-        <members>bdiDataImporterTitle</members>
-        <members>bdiDonation</members>
-        <members>bdiErrorInvalidCampaignName</members>
         <members>bdiErrorInvalidDonor</members>
         <members>bdiErrorInvalidLastname</members>
-        <members>bdiErrorInvalidOppRTName</members>
         <members>bdiErrorNonHHAccountContact</members>
         <members>bdiFailed</members>
-        <members>bdiHouseholdModelRequired</members>
-        <members>bdiIgnored</members>
         <members>bdiImported</members>
         <members>bdiMatched</members>
-        <members>bdiRecordsFailed</members>
-        <members>bdiRecordsImported</members>
-        <members>bdiRecordsProcessed</members>
-        <members>bdiRunBtn</members>
-        <members>bdiStatus</members>
-        <members>bdiStatusProcessed</members>
-        <members>bdiStatusProcessing</members>
-        <members>bdiTime</members>
-        <members>campaignMemberStatusDefault</members>
         <members>campaignMemberStatusNonResponded</members>
         <members>campaignMemberStatusResponded</members>
-        <members>conMergeErrNoPersonAccounts</members>
         <members>flsError</members>
         <members>healthButtonRun</members>
-        <members>healthDetailsAccOne2OneNoContacts</members>
-        <members>healthDetailsAccountModel</members>
-        <members>healthDetailsAccountProcessor</members>
-        <members>healthDetailsAccountRTIssue</members>
-        <members>healthDetailsAutoRelCampaignTypeMissing</members>
-        <members>healthDetailsAutoRelFieldsMissing</members>
-        <members>healthDetailsAutoRelInvalidLookupField</members>
-        <members>healthDetailsBadRDField</members>
-        <members>healthDetailsBadReportId</members>
-        <members>healthDetailsContactData</members>
-        <members>healthDetailsDuplicateAcctRT</members>
-        <members>healthDetailsGenderField</members>
-        <members>healthDetailsHHAccountModel</members>
-        <members>healthDetailsHHActNoContacts</members>
-        <members>healthDetailsHHObNoContacts</members>
-        <members>healthDetailsInvalidCMField</members>
-        <members>healthDetailsInvalidContactField</members>
-        <members>healthDetailsInvalidErrorChatterGroup</members>
-        <members>healthDetailsInvalidErrorRecipient</members>
-        <members>healthDetailsInvalidErrorUser</members>
-        <members>healthDetailsInvalidFiscalYears</members>
-        <members>healthDetailsInvalidObjectField</members>
-        <members>healthDetailsInvalidOppField</members>
-        <members>healthDetailsInvalidOppStage</members>
-        <members>healthDetailsInvalidPaymentField</members>
-        <members>healthDetailsInvalidRDCustomPeriod</members>
-        <members>healthDetailsInvalidRDCustomPeriodPIcklist</members>
-        <members>healthDetailsInvalidRecordtypeId</members>
-        <members>healthDetailsInvalidRecordtypeName</members>
-        <members>healthDetailsInvalidScheduledJob</members>
-        <members>healthDetailsMailingListReportMissing</members>
-        <members>healthDetailsMissingOppPayments</members>
-        <members>healthDetailsNothingScheduled</members>
-        <members>healthDetailsOCRDupPrimary</members>
-        <members>healthDetailsOCRDupPrimaryValid</members>
-        <members>healthDetailsPaymentMappingBadDataTypes</members>
-        <members>healthDetailsRDFieldsBadDatatypes</members>
-        <members>healthDetailsRelReciprocalInvalid</members>
-        <members>healthDetailsSaveAcctFailed</members>
-        <members>healthDetailsSaveOppsFailed</members>
-        <members>healthDetailsScheduleJobs</members>
-        <members>healthDetailsTriggerHandlerDuplicate</members>
-        <members>healthDetailsTriggerHandlerMismatch</members>
-        <members>healthDetailsTriggerHandlerMissing</members>
-        <members>healthDetailsUDFBadDatatypes</members>
-        <members>healthDetailsValidRDCustomPeriod</members>
-        <members>healthLabelAccountData</members>
-        <members>healthLabelAccountModelData</members>
-        <members>healthLabelAccountRTIssueValid</members>
         <members>healthLabelAllTestsPassed</members>
-        <members>healthLabelAutoRelValid</members>
-        <members>healthLabelContactData</members>
-        <members>healthLabelErrorRecipientValid</members>
         <members>healthLabelFailed</members>
-        <members>healthLabelFiscalYearsValid</members>
-        <members>healthLabelHHAccData</members>
-        <members>healthLabelHHData</members>
-        <members>healthLabelHHObjData</members>
         <members>healthLabelIntro</members>
         <members>healthLabelLastRun</members>
-        <members>healthLabelNoMissingOppPayments</members>
-        <members>healthLabelNone</members>
-        <members>healthLabelOCRCheck</members>
-        <members>healthLabelOppPayments</members>
         <members>healthLabelPassed</members>
-        <members>healthLabelPaymentMappingsValid</members>
-        <members>healthLabelRDOppsValid</members>
-        <members>healthLabelRDValid</members>
-        <members>healthLabelRelReciprocalValid</members>
-        <members>healthLabelScheduler</members>
-        <members>healthLabelSchedulerValid</members>
         <members>healthLabelShowPassedTests</members>
         <members>healthLabelTime</members>
-        <members>healthLabelTriggerHandlerCheck</members>
-        <members>healthLabelTriggerHandlersValid</members>
-        <members>healthLabelUDFValid</members>
         <members>healthLabelWarning</members>
-        <members>healthPaymentAutoCloseStageInvalid</members>
-        <members>healthPaymentAutoCloseStageMustBeActiveClosedWonOrBlank</members>
-        <members>healthPaymentAutoCloseStageValid</members>
-        <members>healthSolutionAccOne2OneNoContacts</members>
-        <members>healthSolutionAccountModel</members>
-        <members>healthSolutionAccountRTIssue</members>
-        <members>healthSolutionAutoRelFieldsMissing</members>
-        <members>healthSolutionAutoRelInvalidCMField</members>
-        <members>healthSolutionAutoRelInvalidContactField</members>
-        <members>healthSolutionAutoRelInvalidLookupField</members>
-        <members>healthSolutionBadRDField</members>
-        <members>healthSolutionContactData</members>
-        <members>healthSolutionEditSetting</members>
-        <members>healthSolutionHHAccNoContacts</members>
-        <members>healthSolutionHHObjNoContacts</members>
-        <members>healthSolutionInvalidFiscalYears</members>
-        <members>healthSolutionInvalidOppField</members>
-        <members>healthSolutionInvalidOppStage</members>
-        <members>healthSolutionInvalidPaymentField</members>
-        <members>healthSolutionInvalidRDCustomPeriod</members>
-        <members>healthSolutionInvalidRDCustomPeriodPicklist</members>
-        <members>healthSolutionInvalidScheduledJob</members>
-        <members>healthSolutionInvalidUDFObjectField</members>
-        <members>healthSolutionMailingListReportMissing</members>
-        <members>healthSolutionMissingOppPayments</members>
-        <members>healthSolutionNothingScheduled</members>
-        <members>healthSolutionOCRDupPrimary</members>
-        <members>healthSolutionOCRException</members>
-        <members>healthSolutionPaymentMappingBadDataTypes</members>
-        <members>healthSolutionRDBadOppField</members>
-        <members>healthSolutionRDFieldsBadDatatypes</members>
-        <members>healthSolutionRelReciprocalInvalid</members>
-        <members>healthSolutionSaveOppsFailed</members>
-        <members>healthSolutionScheduleJobs</members>
-        <members>healthSolutionTriggerHandlerMismatch</members>
-        <members>healthSolutionUDFBadDatatypes</members>
-        <members>healthSolutionUDFOppField</members>
         <members>hhCmpDedupLabelReturnToCmp</members>
         <members>hhCmpDedupeBatchMessage</members>
         <members>hhCmpDedupeBatchProgressTitle</members>
@@ -1025,26 +812,7 @@
         <members>pmtWizardWarning</members>
         <members>pmtWizardWriteoffDate</members>
         <members>pmtWizardWriteoffMessage</members>
-        <members>pscManageSoftCreditsAdd</members>
-        <members>pscManageSoftCreditsAmount</members>
-        <members>pscManageSoftCreditsAmountMissing</members>
-        <members>pscManageSoftCreditsAmountOrPercent</members>
         <members>pscManageSoftCreditsCantChangeCurrency</members>
-        <members>pscManageSoftCreditsFull</members>
-        <members>pscManageSoftCreditsInvalidContact</members>
-        <members>pscManageSoftCreditsNoRoles</members>
-        <members>pscManageSoftCreditsOppAmount</members>
-        <members>pscManageSoftCreditsPSCAmount</members>
-        <members>pscManageSoftCreditsPartial</members>
-        <members>pscManageSoftCreditsPercent</members>
-        <members>pscManageSoftCreditsPrimaryDonor</members>
-        <members>pscManageSoftCreditsReconcileFail</members>
-        <members>pscManageSoftCreditsRestrictions</members>
-        <members>pscManageSoftCreditsRoleMissing</members>
-        <members>pscManageSoftCreditsTitle</members>
-        <members>pscManageSoftCreditsType</members>
-        <members>pscManageSoftCreditsUnaccounted</members>
-        <members>pscManageSoftCreditsValidateTotals</members>
         <members>sendAcknowledgmentFailedStatus</members>
         <members>sendAcknowledgmentFailureReasons</members>
         <members>sendAcknowledgmentFireStatus</members>
@@ -1054,7 +822,6 @@
         <members>sendAcknowledgmentPageTitle</members>
         <members>sendAcknowledgmentReturnLinkLabel</members>
         <members>sendAcknowledgmentSucceeded</members>
-        <members>stgAddrMustChooseClass</members>
         <members>stgBtnCancel</members>
         <members>stgBtnClearErrorLog</members>
         <members>stgBtnCreateAutoRel</members>
@@ -1078,9 +845,6 @@
         <members>stgBtnRefreshPrimaryContacts</members>
         <members>stgBtnRunBatch</members>
         <members>stgBtnSave</members>
-        <members>stgErrorINaming</members>
-        <members>stgErrorInvalidClass</members>
-        <members>stgErrorInvalidNameFormat</members>
         <members>stgHHNameRefreshTitle</members>
         <members>stgHelpAccountModel</members>
         <members>stgHelpAlloFiscalYearRollups</members>
@@ -1185,16 +949,12 @@
         <members>stgHelpTHLoadOrder</members>
         <members>stgHelpTHObject</members>
         <members>stgHelpTHTriggerAction</members>
-        <members>stgHelpTriggerHandlers</members>
-        <members>stgHelpTriggerHandlersAsync</members>
         <members>stgHelpUDROperation</members>
         <members>stgHelpUDROppField</members>
         <members>stgHelpUDRTargetObject</members>
-        <members>stgInstallScriptError</members>
         <members>stgLabelActionColumn</members>
         <members>stgLabelAddressVerification</members>
         <members>stgLabelAfflSettings</members>
-        <members>stgLabelAllRecordTypes</members>
         <members>stgLabelAlloBatchProgress</members>
         <members>stgLabelAllocationsRollupSettings</members>
         <members>stgLabelAllocationsSettings</members>
@@ -1204,7 +964,6 @@
         <members>stgLabelBatchStatus</members>
         <members>stgLabelCreateMissingPayments</members>
         <members>stgLabelCurrentUDR</members>
-        <members>stgLabelDoNotRename</members>
         <members>stgLabelErrorNotify</members>
         <members>stgLabelExamplesFGFormat</members>
         <members>stgLabelExamplesHHNameFOrmat</members>
@@ -1241,7 +1000,6 @@
         <members>stgLabelOtherHHNameFormat</members>
         <members>stgLabelOtherInformalGreetingFormat</members>
         <members>stgLabelOtherOpportunigyNamingFormat</members>
-        <members>stgLabelPaymentMapNoValidFields</members>
         <members>stgLabelPaymentSettings</members>
         <members>stgLabelRDFieldMap</members>
         <members>stgLabelRDNewPeriod</members>
@@ -1266,7 +1024,6 @@
         <members>stgNavAllocations</members>
         <members>stgNavBDE</members>
         <members>stgNavBulkProcesses</members>
-        <members>stgNavConnections</members>
         <members>stgNavContactRoles</members>
         <members>stgNavContacts</members>
         <members>stgNavDonations</members>
@@ -1292,14 +1049,13 @@
         <members>stgNavSystem</members>
         <members>stgNavTriggerConfig</members>
         <members>stgNavUserDefinedRollups</members>
-        <members>stgValidationHHAccountHHRules</members>
         <name>CustomLabel</name>
     </types>
     <types>
-        <name>CustomLabel</name>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
     </types>
     <types>
-        <members>Account</members>
         <members>Addr_Verification_Settings__c</members>
         <members>Address_Verification_Settings__c</members>
         <members>Address__c</members>
@@ -1307,7 +1063,6 @@
         <members>Allocations_Settings__c</members>
         <members>Batch_Data_Entry_Settings__c</members>
         <members>Batch__c</members>
-        <members>Contact</members>
         <members>DataImport__c</members>
         <members>Data_Import_Settings__c</members>
         <members>Error_Settings__c</members>
@@ -1316,8 +1071,6 @@
         <members>General_Accounting_Unit__c</members>
         <members>Grant_Deadline__c</members>
         <members>Household_Naming_Settings__c</members>
-        <members>Lead</members>
-        <members>Opportunity</members>
         <members>Opportunity_Naming_Settings__c</members>
         <members>Partial_Soft_Credit__c</members>
         <members>Schedulable__c</members>
@@ -1407,9 +1160,6 @@
         <name>MatchingRule</name>
     </types>
     <types>
-        <name>MatchingRule</name>
-    </types>
-    <types>
         <members>Account.New_Address</members>
         <members>Account.New_Affiliation</members>
         <members>Account.Quick_Household_Update</members>
@@ -1476,10 +1226,6 @@
         <members>Opportunity.Refresh_Name</members>
         <members>Partial_Soft_Credit__c.Manage_Soft_Credits</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>Opportunity</members>
-        <name>Workflow</name>
     </types>
     <types>
         <members>Opportunity.Opportunity_Email_Acknowledgment</members>
